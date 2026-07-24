@@ -1,7 +1,19 @@
 aid: carswitch
 name: CarSwitch
-description: CarSwitch is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CarSwitch is a tech-enabled used-car marketplace founded in Dubai in 2016 that
+  facilitates buying and selling of pre-owned vehicles across the United Arab
+  Emirates (Dubai, Abu Dhabi and nationwide) and Saudi Arabia. Rather than a
+  traditional classifieds site, CarSwitch operates as a fully managed service:
+  every car undergoes a 200-point inspection before listing, sellers get an
+  end-to-end managed selling service (professional photography, listing,
+  negotiation and RTA transfer handling), and buyers get price transparency, a
+  free online car-valuation tool and installment financing through banking
+  partners such as Emirates NBD, FAB, ADCB, ADIB, DIB and Emirates Islamic. The
+  company has inspected 130,000+ vehicles and facilitated over $500 million in
+  sales. CarSwitch was surfaced as a portfolio company of 500 Global and added
+  to the API Evangelist network; it is a consumer marketplace with no public
+  developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/carswitch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d1esl34bhh6pms.cloudfront.net/static/images/og-image.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Automotive
+- Used Cars
+- Marketplace
+- Automotive Marketplace
+- E-Commerce
+- Car Financing
+- Vehicle Inspection
+- United Arab Emirates
+- Saudi Arabia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/carswitch-domain-security.yml
 - type: Website
   url: https://carswitch.com
+- type: About
+  url: https://carswitch.com/about
+- type: Blog
+  url: https://carswitch.com/newsroom
+- type: TermsOfService
+  url: https://carswitch.com/termsandconditions
+- type: PrivacyPolicy
+  url: https://carswitch.com/privacypolicy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
