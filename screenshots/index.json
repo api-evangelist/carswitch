@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "carswitch",
+    "captured_at": "2026-10-11T184121",
+    "source_url": "https://carswitch.com",
+    "source_type": "Website",
+    "file": "carswitch-2026-10-11T184121.png",
+    "bytes": 480351,
+    "capture": "playwright-local"
+  }
+]
