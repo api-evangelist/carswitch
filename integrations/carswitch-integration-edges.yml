@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/carswitch/integrations
+- https://n8n.io/integrations/carswitch/
+- https://composio.dev/toolkits/carswitch
+- https://monid.ai/tools/carswitch
+checked:
+- https://composio.dev/toolkits/carswitch
+- https://monid.ai/tools/carswitch
+- https://n8n.io/integrations/carswitch/
+- https://zapier.com/apps/carswitch/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
